@@ -1,0 +1,41 @@
+.photo-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .photo-block .photo {
+    flex: 1;
+    height: 150px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .photo-block .info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .photo-block .info .data {
+    flex: 1;
+    height: 150px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .photo-block .buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: large;
+  }
+  
